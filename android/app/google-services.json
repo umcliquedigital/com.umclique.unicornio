@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "416777431164",
+    "project_id": "app-example-d94de",
+    "storage_bucket": "app-example-d94de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416777431164:android:8f0539f97fe9f21cdec1f9",
+        "android_client_info": {
+          "package_name": "com.app.example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4xPaRIS0QQlAcY62N0ytwszdzsApOXVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416777431164:android:2735a4aee7fb5eacdec1f9",
+        "android_client_info": {
+          "package_name": "com.lojinha.livia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4xPaRIS0QQlAcY62N0ytwszdzsApOXVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416777431164:android:9f939ccafccdb613dec1f9",
+        "android_client_info": {
+          "package_name": "com.umclique.loja.livia.webview_loja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4xPaRIS0QQlAcY62N0ytwszdzsApOXVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416777431164:android:8beeda0c96418123dec1f9",
+        "android_client_info": {
+          "package_name": "com.umclique.unicornio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4xPaRIS0QQlAcY62N0ytwszdzsApOXVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416777431164:android:6fa0dcf129308cc9dec1f9",
+        "android_client_info": {
+          "package_name": "com.webviewii.pablo.webview_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4xPaRIS0QQlAcY62N0ytwszdzsApOXVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

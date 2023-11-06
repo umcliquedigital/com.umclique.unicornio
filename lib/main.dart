@@ -215,7 +215,9 @@ class _WebViewScreenState extends State<WebViewScreen> {
     },
     child: Scaffold(
 
-      appBar: appBarAtivo == true && _selectedIndex == appBarPagina
+      appBar: PreferredSize(
+    preferredSize: const Size.fromHeight(appBarTamanho), // altura
+    child: appBarAtivo == true && _selectedIndex == appBarPagina
           ? AppBar(
         centerTitle: true,
         backgroundColor: corAppBar, // Cor de fundo do AppBar
@@ -264,6 +266,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
         backgroundColor: corAppBar, // Cor de fundo do AppBar
         elevation: 0, // Sem sombra
       ),
+      ),
       bottomNavigationBar:BottomNavigationBar(
         backgroundColor: backgroundNavBar,
         onTap: onTabTapped,
@@ -271,24 +274,46 @@ class _WebViewScreenState extends State<WebViewScreen> {
         currentIndex: _selectedIndex,
         type: BottomNavigationBarType.fixed,
         items: const <BottomNavigationBarItem>[
+
+
           BottomNavigationBarItem(
-            icon:  ImageIcon(AssetImage(imageNav0),color: corIconenaoselecionado,), // -> Icone
+            icon: ColorFiltered(
+                colorFilter: ColorFilter.mode(
+                  Colors.transparent,  // nova cor
+                  BlendMode.color,
+                ),child: ImageIcon(AssetImage(imageNav0), color:navBarIconCor)),// -> Icone
             label: textoNav0, // -> Descrição
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage(imageNav1),color: corIconenaoselecionado,),
+            icon: ColorFiltered(
+                colorFilter: ColorFilter.mode(
+                  Colors.transparent,  // nova cor
+                  BlendMode.color,
+                ),child: ImageIcon(AssetImage(imageNav1), color:navBarIconCor)),
             label: textoNav1,
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage(imageNav2),color: corIconenaoselecionado,),
+            icon: ColorFiltered(
+                colorFilter: ColorFilter.mode(
+                  Colors.transparent,  // nova cor
+                  BlendMode.color,
+                ),child: ImageIcon(AssetImage(imageNav2), color:navBarIconCor)),
             label: textoNav2,
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage(imageNav3),color: corIconenaoselecionado,),
+            icon: ColorFiltered(
+                colorFilter: ColorFilter.mode(
+                  Colors.transparent,  // nova cor
+                  BlendMode.color,
+                ),child: ImageIcon(AssetImage(imageNav3), color:navBarIconCor)),
             label: textoNav3,
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(AssetImage(imageNav4),color: corIconenaoselecionado,),
+            icon: ColorFiltered(
+                colorFilter: ColorFilter.mode(
+                  Colors.transparent,  // nova cor
+                  BlendMode.color,
+                ),child: ImageIcon(AssetImage(imageNav4), color:navBarIconCor)),
             label: textoNav4,
           ),
         ],

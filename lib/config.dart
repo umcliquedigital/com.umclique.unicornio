@@ -8,6 +8,7 @@ const corAppBar = Color(0xffa9def9);
 const splashBackgorund = Color(0xffffffff);
 const backgroundNavBar = Color(0xffa9def9);
 const corIconenaoselecionado = Color(0xff565f81);
+const navBarIconCor = Color(0xffffffff);
 
 // Configuração AppBar
 const appBarAtivo = true;
@@ -15,6 +16,7 @@ const appBarPagina = 1;
 const appBarTexto = 'Digite algo para pesquisar...';
 const appBarUrlPesquisa = 'https://www.papelariaunicornio.com.br/loja/?pesquisar-por=';
 const appBarIcone = Icon(Icons.search);
+const appBarTamanho = 10.0;
 
 // OneSignal
 const signalId = 'a85a44ad-1276-461b-a5c5-653671a7e97e';
